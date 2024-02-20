@@ -44,10 +44,6 @@ body {
     font-size: 2em;
     cursor: pointer;
 }
-
-button:active {
-    background: -webkit-linear-gradient(top, #B8B8B8,#C4C4C4);
-}
 .button:nth-child(4n+1){
     border-left: 1px solid black;
 }
