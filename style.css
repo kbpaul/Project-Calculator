@@ -12,8 +12,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex: 0 1 60%;
-    min-height: 500px;
-    border: 1px solid red;
+    min-height: 400px;
 }
 .buttons, .result {
     display: flex;
@@ -44,15 +43,27 @@ body {
     font-size: 2em;
     cursor: pointer;
 }
+
+.button:hover {
+    background: #C4C4C4;
+}
+
+.button:active {
+    background: #9f9f9f;
+}
 .button:nth-child(4n+1){
     border-left: 1px solid black;
 }
-button:nth-child(4n+1):active {
+button:nth-child(4n):hover, .button:last-child:hover {
+    background: #fa891f;
+}
+
+button:nth-child(4n):active, .button:last-child:active {
     background: #D16805;
 }
 
 .button:nth-child(4n), .button:last-child{
-    background: #f98110;
+    background: #fa993d;
     color: #fff;
 }
 .zero-btn {
