@@ -129,4 +129,7 @@ function addOperator(event){
 function clear(){
     result.innerText = '';
     decimalEntered = false;
+    firstNumber = null;
+    secondNumber = null;
+    operator = null;
 }
